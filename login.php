@@ -1,7 +1,7 @@
 <?php
  // Starting Session
 session_start();
-//require("mail.php");
+require("mail.php");
 if(isset($_POST['submit'])){
     include('db.php');
     $mysqli = new mysqli("localhost",$user,$pwd,$dbName);
