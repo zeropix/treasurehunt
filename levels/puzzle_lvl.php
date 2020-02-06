@@ -1,6 +1,6 @@
 <?php
 $url1=$_SERVER['REQUEST_URI'];
-header("Refresh: 180; URL=$url1");
+header("Refresh: 300; URL=$url1");
 ?>
 <script>
 
