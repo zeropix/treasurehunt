@@ -198,9 +198,16 @@ $lvl15->color = "black";
 
 $lvl16 = new Level();
 $lvl16->lvl = "19";
-$lvl16->type = "custom";
-$lvl16->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
-$lvl16->filename = "levels/puzzle_lvl.php";
+$lvl16->type = "image";
+$lvl16->question = 'I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order';
+$lvl16->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl16->key = "winner winner chicken dinner";
+$lvl16->questionImg = array("rob.png");
+$lvl16->color = "black";
+
+// $lvl16->type = "custom";
+// $lvl16->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+// $lvl16->filename = "levels/puzzle_lvl.php";
 
 $lvl17 = new Level();
 $lvl17->lvlHead = "Level 20";
@@ -606,12 +613,16 @@ $lvlaaa->color = "black";
 $lvl_49 = new Level();
 $lvl_49->lvlHead = "Level 49";
 $lvl_49->lvl = "49";
-$lvl_49->type = "image";
-$lvl_49->question = 'I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order';
-$lvl_49->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl_49->key = "winner winner chicken dinner";
-$lvl_49->questionImg = array("rob.png");
-$lvl_49->color = "black";
+$lvl_49->type = "custom";
+$lvl_49->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+$lvl_49->filename = "levels/puzzle_lvl.php";
+
+// $lvl_49->type = "image";
+// $lvl_49->question = 'I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order';
+// $lvl_49->bgImg = "url('assets/img/whitebg.jpg')";
+// $lvl_49->key = "winner winner chicken dinner";
+// $lvl_49->questionImg = array("rob.png");
+// $lvl_49->color = "black";
 
 $endFinal = new Level();
 $endFinal->lvl = "49";
